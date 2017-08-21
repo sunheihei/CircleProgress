@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleView">
+
+        <attr name="circle_color" format="color"/>
+        <attr name="text" format="boolean"/>
+
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="CircleProgressView">
+
+        //进度
+        <attr name="progress" format="integer"/>
+        <attr name="BgCircleColor" format="color"/>
+        <attr name="ProgressCircleColor" format="color"/>
+        <attr name="ProgressCircleStorke" format="dimension"/>
+        <attr name="StartArcMode" format="integer"/>
+
+        //渐变色
+         <attr name="FirstColor" format="color"/>
+         <attr name="SecondColor" format="color"/>
+         <attr name="ThirdColor" format="color"/>
+
+        //MainText
+        <attr name="MainTextColor" format="color"/>
+        <attr name="MainTextStroke" format="dimension"/>
+        <attr name="MainTextSize" format="dimension"/>
+
+        //TopText
+        <attr name="TopText" format="string"/>
+        <attr name="TopTextColor" format="color"/>
+        <attr name="TopTextStroke" format="dimension"/>
+        <attr name="TopTextSize" format="dimension"/>
+
+
+        //BottomText
+        <attr name="BottomText" format="string"/>
+        <attr name="BottomTextColor" format="color"/>
+        <attr name="BottomTextStroke" format="dimension"/>
+        <attr name="BottomTextSize" format="dimension"/>
+
+    </declare-styleable>
+
+
+</resources>

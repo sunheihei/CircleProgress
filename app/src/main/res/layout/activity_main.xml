@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.practise.sun.circleprogress.MainActivity">
+
+
+
+    <com.custom.sun.circleprogresslibrary.CircleProgressView
+        android:id="@+id/circleprogress"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+
+        app:FirstColor="#00FF00"
+        app:SecondColor="#FFFF00"
+        app:ThirdColor="#FF0000"
+
+
+        app:TopText="This is TitleText"
+        app:TopTextSize="15sp"
+        app:BottomText="This is BottomText"
+        app:BottomTextSize="10sp"
+
+        app:StartArcMode="1"
+        app:MainTextSize="50sp"
+        app:MainTextColor="@android:color/black"
+        app:MainTextStroke="5px"
+        app:ProgressCircleColor="@android:color/holo_green_light"
+        app:BgCircleColor="@android:color/darker_gray"
+        app:ProgressCircleStorke="10dp"/>
+
+
+</android.support.constraint.ConstraintLayout>
