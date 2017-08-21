@@ -228,9 +228,12 @@ public class CircleProgressView extends View {
         }
 
         //绘制top,bottom;
-        canvas.drawText(TopText,mWidth/2,mHeight/2-mHeight/5,TopTextPaint);
-        canvas.drawText(BottomText,mWidth/2,mHeight/2+mHeight/5,BottomTextPaint);
-
+        if (TopText!=null){
+            canvas.drawText(TopText,mWidth/2,mHeight/2-mHeight/5,TopTextPaint);
+        }
+        if (BottomText!=null){
+            canvas.drawText(BottomText,mWidth/2,mHeight/2+mHeight/5,BottomTextPaint);
+        }
     }
 
     //intAnim
