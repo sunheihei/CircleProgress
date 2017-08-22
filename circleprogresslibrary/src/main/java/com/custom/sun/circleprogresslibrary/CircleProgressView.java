@@ -148,7 +148,7 @@ public class CircleProgressView extends View {
         color = new int[]{FirstColor,SecondColor,ThirdColor};
         Shader mSweepGradient = new SweepGradient(mWidth/2, mHeight/2,color,null);
         Matrix mMatrix = new Matrix();
-        mMatrix.setRotate(mStartArc-10,mWidth/2, mHeight/2);  //由于使用了Paint.Cap.ROUND，旋转角度略小于真实的旋转角
+        mMatrix.setRotate(mStartArc-5,mWidth/2, mHeight/2);  //由于使用了Paint.Cap.ROUND，旋转角度略小于真实的旋转角
         mSweepGradient.setLocalMatrix(mMatrix);
         mSmallCirclePaint.setShader(mSweepGradient);
 
